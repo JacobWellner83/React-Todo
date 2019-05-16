@@ -6,19 +6,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      todos: [
-        {
-          task: '',
-          id: 0,
-          completed: false
-        },
-        {
-          task: '',
-          id: 0,
-          completed: false
-        }
-      ],
-      todo: ''
+     
     };
   }
   
