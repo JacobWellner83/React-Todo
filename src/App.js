@@ -38,7 +38,7 @@ class App extends React.Component {
     }
   }
 
-  removeTodosHandler() {
+  removeTodoHandler() {
     const pendingTodos = this.state.todos.slice().filter(todo => todo.completed === false)
     this.setState({
       todos: pendingTodos
