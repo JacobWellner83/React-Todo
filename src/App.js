@@ -9,7 +9,7 @@ class App extends React.Component {
      task: '',
      todos: [
        {
-         task: 'construct Todo list',
+         task: 'Construct Todo List',
          id: Date.now(),
          completed: false,
        }
@@ -19,6 +19,7 @@ class App extends React.Component {
     this.addTodoHandler = this.addTodoHandler.bind(this)
     this.removeTodoHandler = this.removeTodoHandler.bind(this)
     this.handleChange = this.handleChange.bind(this)
+    this.handleToggleCompleted = this.handleToggleCompleted.bind(this)
   }
 
   addTodoHandler(event) {

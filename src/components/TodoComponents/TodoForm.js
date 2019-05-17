@@ -15,9 +15,11 @@ const TodoForm = (props) => {
                 onChange={handleChange}
             />
             <button onClick={addTodoHandler}>
-                Add Item
+                Add Todo
             </button>
-            <button onClick={removeTodoHandler}>Remove Item</button>
+            <button onClick={removeTodoHandler}>
+                Clear Completed
+            </button>
         </form>
     )
 }
